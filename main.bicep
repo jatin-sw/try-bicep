@@ -1,4 +1,4 @@
-param storageName string = 'stg${uniqueString(resourceGroup().id)}'
+param storageName string = 'stg123'
 param location string = resourceGroup().location
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
